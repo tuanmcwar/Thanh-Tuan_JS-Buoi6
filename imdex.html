@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-2 left ">
+                <button type="button" class="btn btn-active  btn1 btn-primary1 " id="bai1">Bài 1</button>
+
+                <button type="button" class="btn btn-active  btn1 btn-primary1 " id="bai2">Bài 2</button>
+                <button type="button" class="btn btn-active  btn1 btn-primary1" id="bai3">Bài 3</button>
+                <button type="button" class="btn  btn-active btn1 btn-primary1" id="bai4">Bài 4</button>
+                <button type="button" class="btn btn-active  btn1 btn-primary1" id="bai5">Bài 5</button>
+                <button type="button" class="btn btn-active  btn1 btn-primary1" id="bai6">Bài 6</button>
+                <button type="button" class="btn  btn-active btn1 btn-primary1" id="bai7">Bài 7</button>
+                <!-- <button type="button" class="btn btn-active  btn1 btn-primary1" id="bai8">Bài 8</button> -->
+            </div>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+            <div class="col-10 right">
+                <div class="content_b1 content tran" id="content1">
+                      <h2>1️⃣ Tìm số chẵn/lẻ nhỏ hơn 100</h2>
+                    <div class="content__text">
+                       <h3>💡Gợi ý:</h3>
+                       
+                        <ul>
+                            <li>Sử dụng biến bước nhảy, cho biến này tăng dần từ 0 đến 100</li>
+                            <li>Để kiểm tra số chẵn thì đem số đó %2. Nếu kết quả bằng 0 thì đó là số chẵn</li>
+                            <li>Nên tạo ra 2 biến, 1 biến chứa các số chẵn, biến còn lại chứa số lẻ.</li>
+                            <li>Sử dụng cách nối chuỗi để nối dồn các số chẵn và lẻ vào 2 biến tương ứng. vd: soChan = soChan + i</li>
+
+                        </ul>
+                    </div>
+                    <form class="row align-items-center content__text--input">
+ 
+
+                        <div class="col-12">
+                            <button class="btn btn--primary" type="button" id="btnB1">
+                            Xem kết quả
+                                 </button>
+                        </div>
+                        <div class="content__text--output" role="alert">
+                            👉<span id="txtB1"></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="content_b2 content tran" id="content2">
+                    <h2>2️⃣ Đếm số chia hết cho 3</h2>
+                    <div class="content__text">
+                        <h3>💡Gợi ý:</h3>
+                       
+                        <ul>
+                            <li>Sử dụng biến bước nhảy, cho biến này tăng dần từ 0 đến 1000</li>
+                            <li>Để kiểm tra số có chia hết cho 3 thì đem số đó %3. Nếu kết quả bằng 0 thì chia hết
+</li>
+                            <li>Tạo 1 biến đếm. Mỗi khi tìm được 1 số chia hết thì tăng biến đếm lên 1 đơn vị. Dùng toán tử tăng: count +=1; count++ ...
+</li>
+                            
+
+                        </ul>
+                    </div>
+                    <form class="row align-items-center  content__text--input">
+                      
+                        </select>
+
+                        <div class="col-12">
+                            <button class="btn btn--primary " type="button" id="btnB2">Xem kết quả </button>
+                        </div>
+                        <div class="content__text--output" role="alert">
+                            👉 <span id="txtB2"></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="content_b3 content tran" id="content3">
+                    <h2>3️⃣ Tìm số nguyên dương nhỏ nhất</h2>
+                    <div class="content__text">
+                        <h3>💡Gợi ý:</h3>
+                       
+                        <li>Điều kiện tiếp tục vòng lặp là sum < 10000</li>
+                        <li>sum sẽ là tổng cộng dồn của biến bước nhảy sau mỗi lần lặp</li>
+                      
+                    </div>
+                    <form class="row align-items-center content__text--input ">
+                        
+                        <div class="col-12">
+                            <button class="btn btn--primary " type="button" id="btnB3">Xem kết quả</button>
+                        </div>
+                        <div class="content__text--output " role="alert">
+                            👉 <span id="txtB3"></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="content_b4 content tran" id="content4">
+                    <h2>4️⃣ Tính tổng</h2>
+                    <div class="content__text ">
+                        <h3>💡Gợi ý:</h3>
+                       
+                        <ul>
+                            <li>Sử dụng các toán tử sau để tính lũy thừa: Math.pow hoặc **</li>
+                           
+
+
+
+                        </ul>
+                    </div>
+                    <form class="row align-items-center content__text--input ">
+                        <div class="col-12 col-lg-4 ">
+                            <input type="text" class="form-control form__input " id="num1B4" placeholder="Nhập x">
+                        </div>
+                        <div class="col-12 col-lg-4 ">
+                            <input type="text" class="form-control form__input " id="num2B4" placeholder="Nhập n">
+                        </div>
+                        
+                        <div class="col-12">
+                            <button class="btn btn--primary " type="button" id="btnB4">Tính tổng</button>
+                        </div>
+                        <div class="content__text--output" role="alert ">
+                            👉 <span id="txtB4"></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="content_b5 content tran" id="content5">
+                    <h2>5️⃣ Tính giai thừa</h2>
+                    
+                   <form class="row align-items-center content__text--input ">
+                        <div class="col-12 col-lg-4 ">
+                            <input type="text" class="form-control form__input " id="num1B5" placeholder="Nhập x">
+                        </div>
+                        
+                        <div class="col-12">
+                            <button class="btn btn--primary " type="button" id="btnB5">Tính tổng</button>
+                        </div>
+                        <div class="content__text--output" role="alert ">
+                            👉 <span id="txtB5"></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="content_b6 content tran" id="content6">
+                    <h2>6️⃣ Tạo thẻ div</h2>
+                    <div class="content__text">
+                        <h3>💡Gợi ý:</h3>
+                        
+                         <li>Tạo 1 biến content chứa danh sách các thẻ div.</li>
+                          <li>Cho biến bước nhảy tăng dần tới 10</li>
+                          <li>Kiểm tra biến bước nhảy đang là số chẵn hay lẻ trong mỗi lần lặp.</li>
+                          <li>Nếu biến bước nhảy là số chẵn thì cộng (nối chuỗi) dồn thẻ div đỏ vào content. Ngược lại thì cộng dồn thẻ div xanh vào content</li>
+                      
+                    </div>
+                    <form class="row align-items-center content__text--input ">
+                        
+                        <div class="col-12">
+                            <button class="btn btn--primary " type="button" id="btnB6">tạo thẻ</button>
+                        </div>
+                        <div class="content__text--output " role="alert">
+                            👉 <span id="txtB6"></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="content_b7 content tran" id="content7">
+                    <h2>🔢 Đọc số</h2>
+                    <div class="content__text">
+                        <h3>💡Gợi ý:</h3>
+                        
+                         <li>Số nguyên tố phải lớn hơn 1. Và chỉ chia hết cho 1 và chính nó (số có 2 ước)</li>
+                          <li>Một số thông thường và >= 2 sẽ luôn có số lượng ước ở nửa đầu căn bậc 2 bằng số ước ở nửa sau căn bậc 2 của nó. Các ước sẽ phân bố thành 2 miền từ [2; sqrt(x)] và từ [sqrt(x); x].
+=> để biết x có phải số nguyên tố không, ta đem x chia với các số từ 2 đến Math.sqrt(x) (căn bậc 2 của x)
+=> nếu không chia hết thì x là số nguyên tố</li>
+                      
+                    </div>
+                    <form class="row align-items-center content__text--input ">
+                        <div class="col-12 col-lg-4 ">
+                            <input type="text" class="form-control form__input " id="num1B7" placeholder="Nhập 3 chử số">
+                        </div>
+                         
+                         
+                        <div class="col-12">
+                            <button class="btn btn--primary " type="button" id="btnB7">Đọc số</button>
+                        </div>
+                        <div class="content__text--output " role="alert">
+                            👉 <span id="txtB7"></span>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="./index.js "></script>
+</body>
+
+</html>
